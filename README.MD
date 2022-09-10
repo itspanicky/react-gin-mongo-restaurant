@@ -9,7 +9,12 @@
 
 # Server
 
-## Start Up
+## Set Up
+- create a .env file in server directory and add these values
+  - `PORT`
+  - `MONGODB_URL`
+
+## Development
 
 - `go mod tidy`
 - `go build main.go`
@@ -19,7 +24,7 @@
 
 # Client
 
-## Start Up
+## Development
 
 - `yarn`
 - `yarn dev`
